@@ -3,19 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: hsl(219.94deg 13.4% 69.22%);
+  --foreground: hsl(168deg 100% 2.94%);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: hsl(168deg 100% 2.94%);
+    --foreground: hsl(219.94deg 13.4% 69.22%);
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 100%;
+  overflow: clip;
 }
