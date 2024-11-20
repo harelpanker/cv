@@ -21,6 +21,11 @@ export default {
       fontFamily: {
         general_sans: ['var(--font-general_sans)'],
       },
+      colors: {
+        background: "#1a222b",
+        foreground: "#a6adbb",
+        neutral: '#2a323c',
+      },
     },
   },
   plugins: [fluid, addVariablesForColors],

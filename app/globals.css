@@ -2,23 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: hsl(219.94deg 13.4% 69.22%);
-  --foreground: hsl(168deg 100% 2.94%);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: hsl(168deg 100% 2.94%);
-    --foreground: hsl(219.94deg 13.4% 69.22%);
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-}
-
 main {
   width: 100%;
   overflow: clip;
