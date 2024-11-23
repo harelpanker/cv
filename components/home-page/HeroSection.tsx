@@ -9,11 +9,17 @@ import { linksData } from './hero-section-data';
 
 const HeroLink = ({ href, src, alt, width, height, text }: HeroLinkProps) => {
 	return (
-		<a href={href} target='_blank' rel='noopener noreferrer' className='flex items-center gap-x-2'>
+		<a
+			href={href}
+			target='_blank'
+			rel='noopener noreferrer'
+			className='flex items-center gap-x-2 rounded-md px-2 py-1 transition hover:bg-neutral/40'>
 			<Image src={src} alt={alt} width={width} height={height} priority />
-			<Text element='span' className='~text-xs/sm'>
-				{text}
-			</Text>
+			{text ? (
+				<Text element='span' className='~text-xs/sm'>
+					{text}
+				</Text>
+			) : null}
 		</a>
 	);
 };
@@ -35,7 +41,7 @@ export default function HeroSection() {
 					<div className='flex flex-col gap-y-2'>
 						<Title level={1} className='font-medium ~text-3xl/6xl'>
 							<span className='block lg:inline'>
-								<span className='lg:block'>Hi, I'm Harel</span> a Front End
+								<span className='lg:block'>Hi, I'm Harel,</span> a Front End
 							</span>{' '}
 							<Cover>Web Developer</Cover>
 						</Title>

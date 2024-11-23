@@ -22,7 +22,7 @@ export default {
         general_sans: ['var(--font-general_sans)'],
       },
       colors: {
-        background: "#1a222b",
+        background: "#101419",
         foreground: "#a6adbb",
         neutral: '#2a323c',
       },

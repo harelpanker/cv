@@ -4,5 +4,5 @@ export type HeroLinkProps = {
 	alt: string;
 	width: number;
 	height: number;
-	text: string;
+	text?: string;
 };

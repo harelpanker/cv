@@ -16,6 +16,5 @@ export const linksData = [
 		alt: 'cal.com/harel',
 		width: 56,
 		height: 12,
-		text: 'Cal.com',
 	},
 ];
