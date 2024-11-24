@@ -31,7 +31,7 @@ export default function HeroSection() {
 				<div className='flex flex-col items-center gap-x-9 gap-y-3 lg:flex-row'>
 					<figure className='max-w-[32svw] shrink-0 rounded-full border border-foreground/20 p-[2px] lg:max-w-none'>
 						<Image
-							src='/images/profile1.png'
+							src='/images/profile2.png'
 							alt='Harel Panker front end web developer'
 							width={200}
 							height={200}
