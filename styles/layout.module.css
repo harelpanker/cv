@@ -1,6 +1,0 @@
-.body {
-  @apply min-h-dvh antialiased font-general_sans bg-background text-foreground;
-  
-  text-rendering: optimizeLegibility;
-  overscroll-behavior: none;
-}
