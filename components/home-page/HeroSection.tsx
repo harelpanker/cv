@@ -5,7 +5,7 @@ import { Title } from '@/components/ui/title';
 import { Cover } from '@/components/ui/cover';
 import { Text } from '@/components/ui/text';
 import { HeroLinkProps } from '@/types/contact-links';
-import { linksData } from './hero-section-data';
+import { linksData } from '../../lib/hero-section-data';
 
 const HeroLink = ({ href, src, alt, width, height, text }: HeroLinkProps) => {
 	return (
@@ -40,10 +40,7 @@ export default function HeroSection() {
 					</figure>
 					<div className='flex flex-col gap-y-2'>
 						<Title level={1} className='font-medium ~text-3xl/6xl'>
-							<span className='block lg:inline'>
-								<span className='lg:block'>Hi, I'm Harel,</span> a Front End
-							</span>{' '}
-							<Cover>Web Developer</Cover>
+							<span className='block'>Hi, I'm Harel,</span> a Front End <Cover>Developer</Cover>
 						</Title>
 
 						<div className='flex justify-center gap-x-4 lg:justify-start'>
