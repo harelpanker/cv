@@ -8,6 +8,7 @@ export default function ScrollContent() {
 			<div className='flex flex-col gap-y-20 pl-2 md:pl-0'>
 				<CareerObjectives />
 				<WorkExperiance />
+				<div className='min-h-[60dvh]'></div>
 			</div>
 		</TracingBeam>
 	);

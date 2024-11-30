@@ -1,7 +1,11 @@
+import Image from 'next/image';
 import CVLayout from '@/components/home-page/CVLayout';
 import { Title } from '@/components/ui/title';
 import { Text } from '@/components/ui/text';
+import { data } from '@/lib/clients-data';
+import FlickeringGrid from '@/components/ui/flickering-grid';
 import styles from '@/styles/content-layout.module.css';
+import { ContentLoop } from '@/components/ui/content-loop';
 
 export default function WorkExperiance() {
 	return (
@@ -18,6 +22,26 @@ export default function WorkExperiance() {
 				tools, and <strong className={styles.strong}>NextJS</strong>.
 			</Text>
 			<Text>Clients I'm proudly working with:</Text>
+			<div className='relative flex aspect-video items-center justify-center border border-foreground/20 p-5'>
+				<ContentLoop className='z-20 flex h-full w-full flex-1 grow flex-col items-center justify-center [&>div]:w-2/3 lg:[&>div]:w-1/2'>
+					{data.map((item) => (
+						<figure key={item.name} className=''>
+							<Image src={item.logo} alt={item.name} className='w-full' />
+						</figure>
+					))}
+				</ContentLoop>
+
+				<FlickeringGrid
+					className='absolute inset-0 z-10 opacity-50 [mask-image:radial-gradient(220px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(240px_circle_at_center,white,transparent)]'
+					squareSize={4}
+					gridGap={6}
+					color='rgb(236, 72, 153)'
+					maxOpacity={0.5}
+					flickerChance={0.1}
+					height={800}
+					width={800}
+				/>
+			</div>
 		</CVLayout>
 	);
 }
