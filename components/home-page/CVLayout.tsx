@@ -8,7 +8,9 @@ export default function CVLayout({ children, title }: { children: React.ReactNod
 		<Section>
 			<Container className='flex flex-col gap-y-6 pl-6 lg:grid lg:grid-cols-3'>
 				<div>
-					<Title level={2}>{title}</Title>
+					<div className='lg:sticky lg:top-12'>
+						<Title level={2}>{title}</Title>
+					</div>
 				</div>
 				<div className={styles.flexContent}>{children}</div>
 			</Container>

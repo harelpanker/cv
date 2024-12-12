@@ -1,5 +1,5 @@
-import CareerObjectives from '@/components/home-page/CareerObjectives';
 import { TracingBeam } from '@/components/ui/tracing-beam';
+import CareerObjectives from '@/components/home-page/CareerObjectives';
 import WorkExperiance from '@/components/home-page/WorkExperiance';
 
 export default function ScrollContent() {
