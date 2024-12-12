@@ -6,7 +6,7 @@ type HeadingProps = { level?: 1 | 2 | 3 | 4 | 5 | 6 } & React.ComponentPropsWith
 >;
 
 export function Title({ className, level = 2, ...props }: HeadingProps) {
-	let Element: `h${typeof level}` = `h${level}`;
+	const Element: `h${typeof level}` = `h${level}`;
 
 	return <Element {...props} className={cn('text-balance font-medium ~text-3xl/4xl', className)} />;
 }

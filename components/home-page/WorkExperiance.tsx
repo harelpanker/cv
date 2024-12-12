@@ -21,7 +21,7 @@ export default function WorkExperiance() {
 				The projects I have worked on are a mix of static websites and dynamic web applications built with no-code
 				tools, and <strong className={styles.strong}>NextJS</strong>.
 			</Text>
-			<Text>Clients I'm proudly working with:</Text>
+			<Text>Clients I&apos;m proudly working with:</Text>
 			<div className='relative flex aspect-video items-center justify-center border border-foreground/20 p-5'>
 				<ContentLoop className='z-20 flex h-full w-full flex-1 grow flex-col items-center justify-center [&>div]:w-2/3 lg:[&>div]:w-1/2'>
 					{data.map((item) => (

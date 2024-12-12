@@ -9,10 +9,7 @@ export default function Projects() {
 			<Title className={styles.title3} level={3}>
 				Design to working site
 			</Title>
-			<Text>
-				For the past few years, I have been building and maintaining clients websites, working closely with marketing
-				teams and designers.
-			</Text>
+			<Text>My recent projects all built with best practice in mind.</Text>
 			{/* <ul></ul> */}
 		</CVLayout>
 	);
