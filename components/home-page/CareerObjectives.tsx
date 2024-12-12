@@ -1,6 +1,6 @@
 import CVLayout from '@/components/home-page/CVLayout';
-import { Text } from '@/components/ui/text';
 import FlickeringGrid from '@/components/ui/flickering-grid';
+import { Text } from '@/components/ui/text';
 
 export default function CareerObjectives() {
 	return (
