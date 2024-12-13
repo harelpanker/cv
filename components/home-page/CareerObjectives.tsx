@@ -16,19 +16,19 @@ export default function CareerObjectives() {
 			<Text>Now I&apos;m asking myself:</Text>
 			<div className='relative'>
 				<div className='relative z-30 flex flex-col gap-y-2 rounded-md px-4 py-6'>
-					<blockquote className='text-pretty text-2xl font-medium italic leading-relaxed'>
+					<blockquote className='text-pretty font-medium italic !leading-normal ~text-2xl/4xl'>
 						What career would challenge me and render me productive and helpful, so that I could shoulder my share of
 						the load, and enjoy the consequences?
 					</blockquote>
-					<Text className='~text-sm/base'>― Jordan B. Peterson, 12 Rules for Life</Text>
+					<Text className='!~text-sm/lg'>― Jordan B. Peterson, 12 Rules for Life</Text>
 				</div>
 				{/*  */}
 				<FlickeringGrid
-					className='absolute inset-0 z-10 opacity-50 [mask-image:radial-gradient(220px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(240px_circle_at_center,white,transparent)]'
+					className='absolute inset-0 z-10 opacity-70 [mask-image:radial-gradient(220px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(240px_circle_at_center,white,transparent)]'
 					squareSize={4}
 					gridGap={6}
 					color='#60A5FA'
-					maxOpacity={0.5}
+					maxOpacity={0.7}
 					flickerChance={0.1}
 					height={800}
 					width={800}

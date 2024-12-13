@@ -16,7 +16,7 @@ const HeroLink = ({ href, src, alt, width, height, text }: HeroLinkProps) => {
 			className='flex items-center gap-x-2 rounded-md px-2 py-1 transition hover:bg-neutral/40'>
 			<Image src={src} alt={alt} width={width} height={height} priority />
 			{text ? (
-				<Text element='span' className='~text-xs/sm'>
+				<Text element='span' className='!~text-xs/sm'>
 					{text}
 				</Text>
 			) : null}
@@ -39,7 +39,7 @@ export default function HeroSection() {
 						/>
 					</figure>
 					<div className='flex flex-col gap-y-2'>
-						<Title level={1} className='font-medium ~text-3xl/6xl'>
+						<Title level={1} className='font-medium !~text-3xl/7xl'>
 							<span className='block'>Hi, I&apos;m Harel,</span> a Front End <Cover>Developer</Cover>
 						</Title>
 

@@ -6,7 +6,7 @@ import Projects from '@/components/home-page/Projects';
 export default function ScrollContent() {
 	return (
 		<TracingBeam>
-			<div className='flex flex-col gap-y-20 pl-2 md:pl-0'>
+			<div className='flex flex-col gap-y-20 pl-2 md:pl-0 xl:gap-y-36'>
 				<CareerObjectives />
 				<WorkExperiance />
 				<Projects />
