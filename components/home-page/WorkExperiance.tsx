@@ -22,12 +22,21 @@ export default function WorkExperiance() {
 				tools, and <strong className={styles.strong}>NextJS</strong>.
 			</Text>
 			<Text>Clients I&apos;m proudly working with:</Text>
-			<div className='relative flex aspect-video items-center justify-center border border-foreground/20 p-5'>
+			<div className='relative flex aspect-video items-center justify-center p-5'>
 				<ContentLoop className='z-20 flex h-full w-full flex-1 grow flex-col items-center justify-center [&>div]:w-2/3 lg:[&>div]:w-1/2'>
 					{data.map((item) => (
-						<figure key={item.name} className=''>
-							<Image src={item.logo} alt={item.name} className='w-full' />
-						</figure>
+						<a key={item.name} href={item.fullUrl} target='_blank' rel='noopener noreferrer'>
+							<figure>
+								<Image src={item.logo} alt={item.name} className='w-full' />
+							</figure>
+						</a>
+					))}
+				</ContentLoop>
+				<ContentLoop className='absolute inset-0 bottom-3 left-3 top-auto z-20'>
+					{data.map((item) => (
+						<a key={item.name} href={item.fullUrl} target='_blank' rel='noopener noreferrer'>
+							<div>{item.showName}</div>
+						</a>
 					))}
 				</ContentLoop>
 

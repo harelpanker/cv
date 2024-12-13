@@ -9,7 +9,10 @@ export default function Projects() {
 			<Title className={styles.title3} level={3}>
 				Design to working site
 			</Title>
-			<Text>My recent projects all built with best practice in mind.</Text>
+			<Text>
+				I&apos;m out the gate, I&apos;m two tons, tunnel vision, I go get &apos;em Atittude like a black rhino, I&apos;m
+				building my momentum
+			</Text>
 			{/* <ul></ul> */}
 		</CVLayout>
 	);
