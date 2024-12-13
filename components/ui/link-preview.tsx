@@ -59,6 +59,7 @@ export const LinkPreview = ({
 
 	const translateX = useSpring(x, springConfig);
 
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const handleMouseMove = (event: any) => {
 		const targetRect = event.target.getBoundingClientRect();
 		const eventOffsetX = event.clientX - targetRect.left;
