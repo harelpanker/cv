@@ -1,6 +1,7 @@
 import CVLayout from './CVLayout';
 import { Title } from '@/components/ui/title';
 import { Text } from '@/components/ui/text';
+import { LinkPreview } from '@/components/ui/link-preview';
 import ProjectCard from '@/components/home-page/ProjectCard';
 import styles from '@/styles/content-layout.module.css';
 import { data } from '@/lib/projects-data';
@@ -29,7 +30,11 @@ export default function Projects() {
 				{data
 					.filter((item) => !item.src)
 					.map((item) => (
-						<li key={item.name}></li>
+						<li key={item.name}>
+							<LinkPreview url='https://tailwindcss.com' className='font-bold'>
+								Tailwind CSS
+							</LinkPreview>
+						</li>
 					))}
 			</ul>
 		</CVLayout>
