@@ -16,13 +16,13 @@ export default function ProjectCard({ project }: { project: Project }) {
 								<Image src={project.src} alt={project.name} />
 							</CardItem>
 						) : null}
-						<div className='flex justify-between gap-x-4'>
+						<div className='flex items-center justify-between gap-x-4'>
 							<CardItem translateZ='30'>
 								<Title className={styles.title3} level={3}>
 									{project.showName}
 								</Title>
 							</CardItem>
-							<CardItem translateZ='20'>
+							<CardItem translateZ='20' className='shrink-0'>
 								<Image className='opacity-80 invert' src={arrow} alt='arrow' />
 							</CardItem>
 						</div>

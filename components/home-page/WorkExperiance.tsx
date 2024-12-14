@@ -41,11 +41,11 @@ export default function WorkExperiance() {
 				</ContentLoop>
 
 				<FlickeringGrid
-					className='absolute inset-0 z-10 opacity-70 [mask-image:radial-gradient(220px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(240px_circle_at_center,white,transparent)]'
+					className='absolute inset-0 z-10 opacity-60 [mask-image:radial-gradient(220px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(240px_circle_at_center,white,transparent)]'
 					squareSize={4}
 					gridGap={6}
 					color='rgb(236, 72, 153)'
-					maxOpacity={0.7}
+					maxOpacity={0.6}
 					flickerChance={0.1}
 					height={800}
 					width={800}
