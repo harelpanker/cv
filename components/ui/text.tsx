@@ -6,5 +6,5 @@ type TextProps = { element?: 'span' | 'p' } & React.ComponentPropsWithoutRef<'sp
 export function Text({ className, element = 'p', ...props }: TextProps) {
 	const Element: typeof element = element;
 
-	return <Element {...props} className={cn('text-pretty ~text-lg/2xl', className)} />;
+	return <Element {...props} className={cn('text-pretty !leading-normal ~text-lg/2xl', className)} />;
 }

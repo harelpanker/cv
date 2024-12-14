@@ -13,7 +13,7 @@ export default function CareerObjectives() {
 				I am passionate about creating user-friendly websites and contributing to the success of forward-thinking
 				projects.
 			</Text>
-			<Text>Now I&apos;m asking myself:</Text>
+			<Text className='font-medium'>Now I&apos;m asking myself:</Text>
 			<div className='relative'>
 				<div className='relative z-30 flex flex-col gap-y-2 rounded-md px-4 py-6'>
 					<blockquote className='text-pretty font-medium italic !leading-normal ~text-2xl/4xl'>

@@ -134,7 +134,7 @@ AnimationComponent.displayName = 'AnimationComponent';
 export function TextEffect({
 	children,
 	per = 'word',
-	as = 'p',
+	as = 'span',
 	variants,
 	className,
 	preset,

@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { encode } from 'qss';
 import React from 'react';
 import { AnimatePresence, motion, useMotionValue, useSpring } from 'framer-motion';
-import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 type LinkPreviewProps = {
@@ -120,8 +119,10 @@ export const LinkPreview = ({
 								style={{
 									x: translateX,
 								}}>
-								<Link
+								<a
 									href={url}
+									target='_blank'
+									rel='noopener noreferrer'
 									className='hover:border-neutral-200 dark:hover:border-neutral-800 block rounded-xl border-2 border-transparent bg-white p-1 shadow'
 									style={{ fontSize: 0 }}>
 									<Image
@@ -134,7 +135,7 @@ export const LinkPreview = ({
 										className='rounded-lg'
 										alt='preview image'
 									/>
-								</Link>
+								</a>
 							</motion.div>
 						)}
 					</AnimatePresence>

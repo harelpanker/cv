@@ -3,8 +3,8 @@ import { Title } from '@/components/ui/title';
 import { Text } from '@/components/ui/text';
 import ProjectCard from '@/components/home-page/ProjectCard';
 import styles from '@/styles/content-layout.module.css';
-import { data } from '@/lib/projects-data';
 import ProjectLinkPreview from '@/components/home-page/ProjectLinkPreview';
+import { data } from '@/lib/projects-data';
 
 export default function Projects() {
 	return (

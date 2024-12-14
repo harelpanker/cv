@@ -2,6 +2,7 @@ import { TracingBeam } from '@/components/ui/tracing-beam';
 import CareerObjectives from '@/components/home-page/CareerObjectives';
 import WorkExperiance from '@/components/home-page/WorkExperiance';
 import Projects from '@/components/home-page/Projects';
+import Education from '@/components/home-page/Education';
 
 export default function ScrollContent() {
 	return (
@@ -10,6 +11,7 @@ export default function ScrollContent() {
 				<CareerObjectives />
 				<WorkExperiance />
 				<Projects />
+				<Education />
 				<div className='min-h-[60dvh]'></div>
 			</div>
 		</TracingBeam>
