@@ -5,9 +5,9 @@ import permit from '@/public/images/sites/permit.png';
 
 export type Project = {
 	name: string;
-	src?: StaticImageData;
 	fullUrl: string;
 	showName: string;
+	src?: StaticImageData;
 };
 
 export const data: Project[] = [
@@ -18,11 +18,6 @@ export const data: Project[] = [
 		src: groundcover,
 		fullUrl: 'https://www.groundcover.com/',
 		showName: 'groundcover - groundcover.com',
-	},
-	{
-		name: 'Port Backstage Plugin',
-		fullUrl: 'https://backstage-plugin.getport.io/',
-		showName: 'Port Backstage Plugin',
 	},
 	{ name: 'Obol', fullUrl: 'https://www.obol.app/', showName: 'Obol - obol.app' },
 	{ name: 'Everafter', fullUrl: 'https://www.everafter.ai/', showName: 'Everafter - everafter.ai' },

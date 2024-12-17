@@ -13,10 +13,10 @@ export default function Education() {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setTrigger((prev) => !prev);
-		}, 2000);
+		}, 1000);
 		const interval2 = setInterval(() => {
 			setCurrentIndex((prevIndex) => (prevIndex + 1) % data.length);
-		}, 4000);
+		}, 2000);
 
 		return () => {
 			clearInterval(interval);

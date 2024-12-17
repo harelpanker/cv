@@ -8,7 +8,7 @@ export default function ProjectLinkPreview({ fullUrl, showName }: { fullUrl: str
 		<li>
 			<LinkPreview
 				url={fullUrl}
-				className='group relative flex w-full items-center justify-between overflow-hidden border-b border-b-transparent px-2 py-4 text-foreground transition duration-300 hover:border-b-foreground lg:px-4'>
+				className='group relative z-10 flex w-full items-center justify-between overflow-hidden border-b border-b-transparent px-2 py-4 text-foreground transition duration-300 hover:z-20 hover:border-b-foreground lg:px-4'>
 				<Title level={5} className='~text-lg/2xl'>
 					{showName}
 				</Title>
