@@ -28,7 +28,7 @@ export default function Education() {
 		<CVLayout title='Knowledge'>
 			<Text>
 				I&apos;m holding a strong understanging of the fundamentals of web development, including{' '}
-				<strong className='font-medium'>HTML , CSS, and JavaScript</strong> .
+				<strong className='font-medium'>HTML , CSS, and JavaScript</strong>.
 			</Text>
 			<Text>
 				More then that, I&apos;m also well-versed in frontend frameworks like{' '}
