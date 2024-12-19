@@ -8,7 +8,7 @@ import Contact from '@/components/home-page/Contact';
 export default function ScrollContent() {
 	return (
 		<TracingBeam>
-			<div className='flex flex-col gap-y-20 pl-2 md:pl-0 xl:gap-y-36'>
+			<div className='flex flex-col gap-y-28 pl-2 md:pl-0 xl:gap-y-36'>
 				<CareerObjectives />
 				<WorkExperiance />
 				<Projects />

@@ -43,7 +43,7 @@ export const EvervaultCard = ({
 				className='group/card relative flex h-full w-full items-center justify-center overflow-hidden rounded-3xl bg-transparent'>
 				<CardPattern mouseX={mouseX} mouseY={mouseY} randomString={randomString} />
 				<div className='relative z-10 flex items-center justify-center'>
-					<div className='relative flex h-56 w-56 items-center justify-center rounded-full text-4xl font-semibold text-white'>
+					<div className='relative flex items-center justify-center rounded-full font-semibold text-white ~text-3xl/5xl ~h-32/56 ~w-32/56'>
 						<div className='absolute h-full w-full rounded-full bg-background/90 blur-sm ' />
 						<span className='pointer-events-none z-20 text-foreground'>
 							<TextEffect className='inline-flex' per='char' variants={blurSlideVariants} trigger={trigger}>
