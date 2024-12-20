@@ -7,7 +7,7 @@ export default function ContactButton() {
 			target='_blank'
 			rel='noopener noreferrer'
 			className='flex w-full flex-col items-center justify-center gap-y-2 overflow-hidden rounded-md py-10'>
-			<div className='relative z-20 text-center font-medium text-foreground ~text-3xl/7xl'>
+			<div className='relative z-20 text-center font-medium text-foreground ~text-5xl/7xl'>
 				<Magnetic intensity={0.3} actionArea='global' range={250}>
 					<span>Let&apos;s Meet</span>
 				</Magnetic>
