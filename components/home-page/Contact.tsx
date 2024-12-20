@@ -4,8 +4,8 @@ import ContactDock from '@/components/home-page/ContactDock';
 
 export default function Contact() {
 	return (
-		<CVLayout title='Contact'>
-			<div className='mt-12 flex flex-col gap-y-4 lg:mt-0 lg:gap-y-16'>
+		<CVLayout title='Contact' element='footer'>
+			<div className='mt-12 flex flex-col gap-y-4 pb-20 lg:mt-0 lg:gap-y-16'>
 				<ContactDock />
 				<ContactButton />
 			</div>
