@@ -14,7 +14,6 @@ export default function ScrollContent() {
 				<Projects />
 				<Education />
 				<Contact />
-				<div className='min-h-[60dvh]'></div>
 			</div>
 		</TracingBeam>
 	);
