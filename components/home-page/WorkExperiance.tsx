@@ -22,8 +22,8 @@ export default function WorkExperiance() {
 				tools, and <strong className={styles.strong}>NextJS</strong>.
 			</Text>
 			<Text>Clients I&apos;m proudly working with:</Text>
-			<div className='relative flex aspect-video items-center justify-center p-5'>
-				<ContentLoop className='z-20 flex h-full w-full flex-1 grow flex-col items-center justify-center [&>div]:w-2/3 lg:[&>div]:w-1/2'>
+			<div className='relative flex aspect-video max-w-full items-center justify-center p-5'>
+				<ContentLoop className='z-20 mb-10 flex h-full w-full flex-1 grow flex-col items-center justify-center lg:mb-0 [&>div]:w-2/3 lg:[&>div]:w-1/2'>
 					{data.map((item) => (
 						<a key={item.name} href={item.fullUrl} target='_blank' rel='noopener noreferrer'>
 							<figure>
@@ -41,12 +41,12 @@ export default function WorkExperiance() {
 				</ContentLoop>
 
 				<FlickeringGrid
-					className='absolute inset-0 z-10 opacity-60 [mask-image:radial-gradient(220px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(240px_circle_at_center,white,transparent)]'
+					className='absolute inset-0 z-10 opacity-70 [mask-image:radial-gradient(220px_circle_at_center,white,transparent)] lg:[mask-image:radial-gradient(240px_circle_at_center,white,transparent)]'
 					squareSize={4}
 					gridGap={6}
 					color='rgb(236, 72, 153)'
-					maxOpacity={0.6}
-					flickerChance={0.1}
+					maxOpacity={0.7}
+					flickerChance={0.15}
 					height={800}
 					width={800}
 				/>
