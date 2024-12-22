@@ -7,9 +7,9 @@ import FlickeringGrid from '@/components/ui/flickering-grid';
 import styles from '@/styles/content-layout.module.css';
 import { ContentLoop } from '@/components/ui/content-loop';
 
-export default function WorkExperiance() {
+export default function WorkExperience() {
 	return (
-		<CVLayout title='Work Experiance'>
+		<CVLayout title='Work Experience'>
 			<Title className={styles.title3} level={3}>
 				Independent developer | 2019 - PRESENT
 			</Title>
