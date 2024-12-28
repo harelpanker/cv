@@ -27,7 +27,7 @@ export default function Education() {
 	}, []);
 
 	return (
-		<CVLayout title='Knowledge'>
+		<CVLayout title='Knowledge' id='knowledge'>
 			<Text>
 				I&apos;m holding a strong understanging of the fundamentals of web development, including{' '}
 				<strong className='font-medium'>HTML , CSS, and JavaScript</strong>.

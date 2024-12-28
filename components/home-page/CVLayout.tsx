@@ -7,10 +7,12 @@ export default function CVLayout({
 	children,
 	title,
 	element = 'section',
+	id,
 }: {
 	children: React.ReactNode;
 	title?: string;
 	element?: 'footer' | 'div' | 'section';
+	id?: string;
 }) {
 	const Element = element === 'section' ? Section : element;
 	return (
@@ -18,7 +20,7 @@ export default function CVLayout({
 			<Container className='flex flex-col gap-y-6 pl-6 lg:grid lg:grid-cols-3 lg:gap-x-6'>
 				<div className={`${title ? '' : 'hidden lg:block'}`}>
 					{title ? (
-						<div className='lg:sticky lg:top-12'>
+						<div className='lg:sticky lg:top-20'>
 							<Title level={2}>{title}</Title>
 						</div>
 					) : null}
@@ -26,6 +28,7 @@ export default function CVLayout({
 
 				<div className={styles.flexContent}>{children}</div>
 			</Container>
+			{id ? <div id={id} className='pointer-events-none absolute -top-24 left-0 h-px w-full'></div> : null}
 		</Element>
 	);
 }

@@ -4,7 +4,7 @@ import { Text } from '@/components/ui/text';
 
 export default function CareerObjectives() {
 	return (
-		<CVLayout title='Career Objectives'>
+		<CVLayout title='Career Objectives' id='career-objectives'>
 			<Text>
 				A dedicated web developer with over 4 years of experience is seeking a position in a dynamic and innovative
 				organization.

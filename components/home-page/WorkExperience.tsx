@@ -6,7 +6,7 @@ import WorkExperienceLogos from '@/components/home-page/WorkExperienceLogos';
 
 export default function WorkExperience() {
 	return (
-		<CVLayout title='Work Experience'>
+		<CVLayout title='Work Experience' id='work-experience'>
 			<Title className={styles.title3} level={3}>
 				Independent developer | 2019 - PRESENT
 			</Title>

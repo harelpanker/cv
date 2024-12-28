@@ -8,7 +8,7 @@ import { data } from '@/lib/projects-data';
 
 export default function Projects() {
 	return (
-		<CVLayout title='Projects'>
+		<CVLayout title='Projects' id='projects'>
 			<Title className={styles.title3} level={3}>
 				From design to working site
 			</Title>
