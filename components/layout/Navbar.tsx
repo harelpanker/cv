@@ -25,7 +25,7 @@ export default function Navbar() {
 		}
 
 		setLastScrollY(scroll.y);
-	}, [scroll.y]);
+	}, [scroll.y, lastScrollY]);
 
 	return (
 		<div
