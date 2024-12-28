@@ -4,6 +4,7 @@ import WorkExperience from '@/components/home-page/WorkExperience';
 import Projects from '@/components/home-page/Projects';
 import Education from '@/components/home-page/Education';
 import Contact from '@/components/home-page/Contact';
+import Recommended from '@/components/home-page/Recommended';
 
 export default function ScrollContent() {
 	return (
@@ -12,6 +13,7 @@ export default function ScrollContent() {
 				<CareerObjectives />
 				<WorkExperience />
 				<Projects />
+				<Recommended />
 				<Education />
 				<Contact />
 			</div>
