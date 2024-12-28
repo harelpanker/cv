@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 		locale: 'en_US',
 		images: [
 			{
-				url: '/og-image.png',
+				url: 'https://cdn.prod.website-files.com/666c7f094ef448a50760aaec/67701d421d4895759ea04b84_opengraph-image.png',
 				width: 1200,
 				height: 630,
 				alt: 'Harel Panker | Frontend Developer',
@@ -54,7 +54,9 @@ export const metadata: Metadata = {
 		title: 'Harel Panker | Frontend Developer',
 		description:
 			'Expert frontend developer specializing in React, Next.js, and modern web technologies. Creating responsive, performant, and user-friendly web applications.',
-		images: ['/og-image.png'],
+		images: [
+			'https://cdn.prod.website-files.com/666c7f094ef448a50760aaec/67701d421d4895759ea04b84_opengraph-image.png',
+		],
 	},
 	robots: {
 		index: true,
