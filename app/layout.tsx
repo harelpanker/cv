@@ -40,21 +40,21 @@ export const metadata: Metadata = {
 		url: 'https://www.panker.dev',
 		siteName: 'panker.dev',
 		locale: 'en_US',
-		images: [
-			{
-				url: 'https://www.panker.dev/og-image.png',
-				width: 1200,
-				height: 630,
-				alt: 'Harel Panker | Frontend Developer',
-			},
-		],
+		// images: [
+		// 	{
+		// 		url: 'https://www.panker.dev/og-image.png',
+		// 		width: 1200,
+		// 		height: 630,
+		// 		alt: 'Harel Panker | Frontend Developer',
+		// 	},
+		// ],
 	},
 	twitter: {
 		card: 'summary_large_image',
 		title: 'Harel Panker | Frontend Developer',
 		description:
 			'Expert frontend developer specializing in React, Next.js, and modern web technologies. Creating responsive, performant, and user-friendly web applications.',
-		images: ['https://www.panker.dev/og-image.png'],
+		// images: ['https://www.panker.dev/og-image.png'],
 	},
 	robots: {
 		index: true,
