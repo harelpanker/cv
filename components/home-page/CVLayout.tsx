@@ -14,7 +14,7 @@ export default function CVLayout({
 }) {
 	const Element = element === 'section' ? Section : element;
 	return (
-		<Element>
+		<Element className='relative z-20 !~px-4/12'>
 			<Container className='flex flex-col gap-y-6 pl-6 lg:grid lg:grid-cols-3 lg:gap-x-6'>
 				<div>
 					<div className='lg:sticky lg:top-12'>
