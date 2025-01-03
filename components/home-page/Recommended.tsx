@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import CVLayout from '@/components/home-page/CVLayout';
 import FlickeringGrid from '@/components/ui/flickering-grid';
+import QuoteIcon from '@/components/ui/quote-icon';
 import { Text } from '@/components/ui/text';
 
 import gabriel from '@/public/images/recommendations/gabriel.jpeg';
@@ -17,6 +18,7 @@ export default function Recommended() {
 						<span className='font-medium'>delivering the final pixel-perfect value.</span> I highly recommend him for
 						any kind of project you have.
 					</blockquote>
+					<QuoteIcon />
 				</div>
 				{/*  */}
 				<FlickeringGrid
@@ -36,7 +38,7 @@ export default function Recommended() {
 				</figure>
 				<div>
 					<Text className='font-medium'>Gabriel Manor - Liechtman</Text>
-					<Text className='!~text-sm/lg'>
+					<Text className='!~text-xs/base'>
 						VP, DevRel at Permit.io | Fine-Grained Authorization Advocate | Writer & Public Speaker | Native JavaScript
 						Speaker
 					</Text>

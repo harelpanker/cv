@@ -7,7 +7,6 @@ export default function DesktopMenu() {
 	return (
 		<div className='flex items-center gap-x-2'>
 			<AnimatedBackground
-				defaultValue={menuLinks[0].name}
 				className='rounded-lg bg-foreground'
 				transition={{
 					type: 'spring',
