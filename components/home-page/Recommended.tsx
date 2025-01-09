@@ -11,7 +11,7 @@ export default function Recommended() {
 		<CVLayout>
 			<div className='relative'>
 				<div className='relative z-30 flex flex-col gap-y-4 rounded-md px-4 py-6'>
-					<blockquote className='text-pretty font-medium !leading-normal ~text-xl/2xl'>
+					<blockquote className='relative z-20 text-pretty font-medium !leading-normal ~text-xl/2xl'>
 						Working with Harel as a freelance marketing developer for Permit.io for the last couple of years, I found
 						him to be one of the most professional web developers I have ever met. The work is always smooth and
 						coherent, from understanding the requirements to{' '}

@@ -1,7 +1,7 @@
 export default function QuoteIcon() {
 	return (
 		<svg
-			className='absolute -left-4 -top-14 size-36 opacity-10'
+			className='absolute -left-4 -top-14 z-10 size-36 opacity-10'
 			xmlns='http://www.w3.org/2000/svg'
 			viewBox='0 0 24 24'
 			fill='currentColor'>
