@@ -27,11 +27,6 @@ const data: DataProps[] = [
 		isStrong: false,
 		text: 'Delivered SEO-optimized, visually compelling solutions tailored to each client&apos;s needs.',
 	},
-	{
-		id: 4,
-		isStrong: true,
-		text: 'Consistently achieved greater web exposure and improved online visibility for clients, contributing to their business growth.',
-	},
 ];
 
 export default function WorkExperience() {

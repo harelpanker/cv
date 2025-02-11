@@ -13,8 +13,8 @@ export default function Projects() {
 				From design to working site
 			</Title>
 			<Text>
-				I&apos;m out the gate, I&apos;m two tons, tunnel vision, I go get &apos;em Atittude like a black rhino, I&apos;m
-				building my momentum
+				Consistently achieved greater web exposure and improved online visibility for clients, contributing to their
+				business growth.
 			</Text>
 			<ul className='mb-12 mt-4 flex flex-col gap-y-12'>
 				{data

@@ -6,12 +6,12 @@ export default function CareerObjectives() {
 	return (
 		<CVLayout title='Career Objectives' id='career-objectives'>
 			<Text>
-				A dedicated web developer with over 4 years of experience is seeking a position in a dynamic and innovative
-				organization.
+				Passionate web developer with over 4 years of experience, specializing in building user-centric,
+				high-performance websites.
 			</Text>
 			<Text>
-				I am passionate about creating user-friendly websites and contributing to the success of forward-thinking
-				projects.
+				I am eager to contribute my expertise in frontend technologies to a forward-thinking team, where I can grow
+				professionally and make an impactful contribution to innovative web projects.
 			</Text>
 			<Text className='font-medium'>Now I&apos;m asking myself:</Text>
 			<div className='relative'>
