@@ -40,7 +40,7 @@ export default function HeroSection() {
 					</figure>
 					<div className='flex flex-col gap-y-2'>
 						<Title level={1} className='font-medium !~text-3xl/7xl'>
-							<span className='block'>Hi, I&apos;m Harel,</span> a Front End <Cover>Developer</Cover>
+							<span className='block'>Hi, I&apos;m Harel,</span> a Front End <Cover>Engineer</Cover>
 						</Title>
 
 						<div className='flex justify-center gap-x-4 lg:justify-start'>
