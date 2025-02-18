@@ -5,6 +5,7 @@ export default function MainLink({ text = 'Contact info', href = '#contact' }: {
 	return (
 		<Magnetic intensity={0.2} springOptions={{ bounce: 0.1 }} actionArea='global' range={150}>
 			<Link
+				data-umami-event='contact_info'
 				href={href}
 				className='group relative inline-block cursor-pointer rounded-full bg-background p-px font-medium leading-6 text-foreground no-underline shadow-2xl shadow-background/30 ~text-sm/lg'>
 				<span className='absolute inset-0 overflow-hidden rounded-full'>

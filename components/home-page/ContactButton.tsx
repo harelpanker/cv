@@ -3,6 +3,7 @@ import { Magnetic } from '@/components/ui/magnetic';
 export default function ContactButton() {
 	return (
 		<a
+			data-umami-event='contact_info'
 			href='https://cal.com/harel'
 			target='_blank'
 			rel='noopener noreferrer'

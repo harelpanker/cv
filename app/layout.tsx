@@ -1,4 +1,5 @@
 import './globals.css';
+import Script from 'next/script';
 import type { Metadata } from 'next';
 import Navbar from '@/components/layout/Navbar';
 import { Children } from '@/types/children';
@@ -68,6 +69,12 @@ export default function RootLayout({ children }: Readonly<Children>) {
 	return (
 		<html lang='en' dir='ltr' className={`${general_sans.variable} scroll-smooth`}>
 			<body className='min-h-dvh bg-background font-general_sans text-foreground antialiased'>
+				<Script
+					defer
+					src='https://cloud.umami.is/script.js'
+					data-website-id='129c37f3-cf33-4ad9-92f8-4bec31f06b9c'
+					strategy='afterInteractive'
+				/>
 				<Navbar />
 				<div className='relative z-20'>{children}</div>
 				<BackgroundAnimation />
