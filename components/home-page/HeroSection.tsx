@@ -30,13 +30,7 @@ export default function HeroSection() {
 			<Container className='flex-col gap-y-12 py-12 text-center lg:py-24 lg:text-left'>
 				<div className='flex flex-col items-center gap-x-9 gap-y-3 lg:flex-row'>
 					<figure className='max-w-[32svw] shrink-0 rounded-full border border-foreground/20 p-[2px] lg:max-w-none'>
-						<Image
-							src='/images/profile2.png'
-							alt='Harel Panker front end web developer'
-							width={200}
-							height={200}
-							priority
-						/>
+						<Image src='/images/profile2.png' alt='Harel Panker front end Engineer' width={200} height={200} priority />
 					</figure>
 					<div className='flex flex-col gap-y-2'>
 						<Title level={1} className='font-medium !~text-3xl/7xl'>
