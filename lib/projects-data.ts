@@ -11,7 +11,7 @@ export type Project = {
 };
 
 export const data: Project[] = [
-	{ name: 'Port', src: port, fullUrl: 'https://www.getport.io/', showName: 'Port - getport.io' },
+	{ name: 'Port', src: port, fullUrl: 'https://www.port.io/', showName: 'Port - port.io' },
 	{ name: 'Permit', src: permit, fullUrl: 'https://www.permit.io/', showName: 'Permit - permit.io' },
 	{
 		name: 'Groundcover',

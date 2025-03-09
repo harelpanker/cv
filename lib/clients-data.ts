@@ -30,7 +30,7 @@ export const data: Client[] = [
 		fullUrl: 'https://www.groundcover.com/',
 		showName: 'Groundcover - groundcover.com',
 	},
-	{ name: 'Port', logo: port, fullUrl: 'https://www.getport.io/', showName: 'Port - getport.io' },
+	{ name: 'Port', logo: port, fullUrl: 'https://www.port.io/', showName: 'Port - port.io' },
 	{ name: 'Permit', logo: permit, fullUrl: 'https://www.permit.io/', showName: 'Permit - permit.io' },
 	{ name: 'Lin', logo: lin, fullUrl: 'https://www.lin.health/', showName: 'Lin - lin.health' },
 	{ name: 'Obol', logo: obol, fullUrl: 'https://www.obol.app/', showName: 'Obol - obol.app' },
