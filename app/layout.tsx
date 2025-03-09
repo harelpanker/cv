@@ -7,11 +7,13 @@ import { general_sans } from '@/components/layout/fonts';
 import BackgroundAnimation from '@/components/ui/background-animation';
 
 const SITE_URL = 'https://cv.panker.dev';
+const SITE_TITLE = 'Harel Panker | Frontend Engineer';
+const SITE_DESCRIPTION =
+	'Expert Frontend Engineer specializing in React, Next.js, and modern web technologies. Creating responsive, performant, and user-friendly web applications.';
 
 export const metadata: Metadata = {
-	title: 'Harel Panker | Frontend Engineer',
-	description:
-		'Expert Frontend Engineer specializing in React, Next.js, and modern web technologies. Creating responsive, performant, and user-friendly web applications.',
+	title: SITE_TITLE,
+	description: SITE_DESCRIPTION,
 	generator: 'Next.js',
 	applicationName: 'Next.js',
 	referrer: 'origin-when-cross-origin',
@@ -38,18 +40,16 @@ export const metadata: Metadata = {
 	},
 	openGraph: {
 		type: 'website',
-		title: 'Harel Panker | Frontend Engineer',
-		description:
-			'Expert Frontend Engineer specializing in React, Next.js, and modern web technologies. Creating responsive, performant, and user-friendly web applications.',
+		title: SITE_TITLE,
+		description: SITE_DESCRIPTION,
 		url: SITE_URL,
 		siteName: 'panker.dev',
 		locale: 'en_US',
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Harel Panker | Frontend Engineer',
-		description:
-			'Expert frontend developer specializing in React, Next.js, and modern web technologies. Creating responsive, performant, and user-friendly web applications.',
+		title: SITE_TITLE,
+		description: SITE_DESCRIPTION,
 	},
 	robots: {
 		index: true,
