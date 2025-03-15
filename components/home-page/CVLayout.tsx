@@ -2,6 +2,7 @@ import Section from '@/components/ui/section';
 import Container from '@/components/ui/container';
 import { Title } from '@/components/ui/title';
 import styles from '@/styles/content-layout.module.css';
+import SectionID from '@/components/layout/SectionID';
 
 export default function CVLayout({
 	children,
@@ -28,7 +29,7 @@ export default function CVLayout({
 
 				<div className={styles.flexContent}>{children}</div>
 			</Container>
-			{id ? <div id={id} className='pointer-events-none absolute -top-24 left-0 h-px w-full'></div> : null}
+			{id ? <SectionID id={id} /> : null}
 		</Element>
 	);
 }

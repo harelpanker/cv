@@ -2,6 +2,7 @@ import Image from 'next/image';
 import CVLayout from '@/components/home-page/CVLayout';
 import FlickeringGrid from '@/components/ui/flickering-grid';
 import QuoteIcon from '@/components/ui/quote-icon';
+import SectionID from '@/components/layout/SectionID';
 import { Text } from '@/components/ui/text';
 
 import gabriel from '@/public/images/recommendations/gabriel.jpeg';
@@ -44,6 +45,7 @@ export default function Recommended() {
 					</Text>
 				</div>
 			</div>
+			<SectionID id='recommendations' />
 		</CVLayout>
 	);
 }
