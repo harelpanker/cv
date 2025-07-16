@@ -27,4 +27,6 @@ export const data: Project[] = [
 	{ name: 'Antidote', fullUrl: 'https://www.antidotehealth.com/', showName: 'Antidote - antidotehealth.com' },
 	{ name: 'Lin', fullUrl: 'https://www.lin.health/', showName: 'Lin - lin.health' },
 	{ name: 'Product @ Port', fullUrl: 'https://productmanagement.port.io/', showName: 'Product management @ Port' },
+	{ name: 'Mensoi', fullUrl: 'https://mensoi.com/', showName: 'Mensoi - mensoi.com' },
+	{ name: 'echo', fullUrl: 'https://www.echohq.com/', showName: 'echo - echohq.com' },
 ];
