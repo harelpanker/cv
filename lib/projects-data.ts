@@ -24,7 +24,7 @@ export const data: Project[] = [
 	{ name: 'Getfabric', fullUrl: 'https://www.getfabric.com/', showName: 'Getfabric - getfabric.com' },
 	{ name: 'Alta', fullUrl: 'https://www.altahq.com/', showName: 'Alta - altahq.com' },
 	{ name: 'Conifers', fullUrl: 'https://www.conifers.ai/', showName: 'Conifers - conifers.ai' },
-	{ name: 'Antidote', fullUrl: 'https://www.antidotehealth.com/', showName: 'Antidote - antidotehealth.com' },
+	// { name: 'Antidote', fullUrl: 'https://www.antidotehealth.com/', showName: 'Antidote - antidotehealth.com' },
 	{ name: 'Lin', fullUrl: 'https://www.lin.health/', showName: 'Lin - lin.health' },
 	{ name: 'Product @ Port', fullUrl: 'https://productmanagement.port.io/', showName: 'Product management @ Port' },
 	{ name: 'Mensoi', fullUrl: 'https://mensoi.com/', showName: 'Mensoi - mensoi.com' },

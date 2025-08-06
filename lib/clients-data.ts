@@ -17,12 +17,12 @@ export type Client = {
 
 export const data: Client[] = [
 	{ name: 'Alta', logo: alta, fullUrl: 'https://www.altahq.com/', showName: 'Alta - altahq.com' },
-	{
-		name: 'Antidote',
-		logo: antidote,
-		fullUrl: 'https://www.antidotehealth.com/',
-		showName: 'Antidote - antidotehealth.com',
-	},
+	// {
+	// 	name: 'Antidote',
+	// 	logo: antidote,
+	// 	fullUrl: 'https://www.antidotehealth.com/',
+	// 	showName: 'Antidote - antidotehealth.com',
+	// },
 	{ name: 'Everafter', logo: everafter, fullUrl: 'https://www.everafter.ai/', showName: 'Everafter - everafter.ai' },
 	{
 		name: 'Groundcover',
